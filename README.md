@@ -14,7 +14,7 @@ The Ervoice library provides a complete solution for creating, managing, and pre
 Install the library using npm:
 
 ```bash
-npm install @your-org/ervoice
+npm install ervoice-plugin
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ npm install @your-org/ervoice
 To use the library, simply import the `Invoice` component and set your `baseUrl` and `secretKey`:
 
 ```javascript
-import Invoice from "@your-org/ervoice";
+import {Invoice} from "ervoice-plugin";
 
 function App() {
   return (
